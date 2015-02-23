@@ -1,67 +1,45 @@
-Aerial by HTML5 UP
+Tessellate by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+This is Tessellate, a brand new responsive site template by AJ (aka n33) for HTML5 UP.
+It's a single pager (a format I'm pretty into right now), has styling for a crapload
+of basic elements, and includes a handy "dark" modifier class to flip a given element
+to a light-on-dark color scheme.
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+Demo images* courtesy of Felicia Simion, a highly creative photographer/artist
+friend of mine over at deviantART. See more of her incredible work here:
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+http://ineedchemicalx.deviantart.com/
+
+(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
+and/or use any of Felicia's work without her explicit permission!)
 
 AJ
 n33.co @n33co dribbble.com/n33
 
 
-The Scrolling Background:
-
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
-	
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
-
-	Now, there are two ways to use it: with CSS, or with Sass:
-
-	CSS:
-	
-		Look for this line in css/style.css (line 108 as of this writing):
-		
-			background: #348cb2 url("images/bg.jpg") bottom left;
-			
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
-
-	Sass:
-	
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
-
-
 Credits:
 
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
-
+	Demo Images:
+		Felicia Simion (ineedchemicalx.deviantart.com)
+			"Look for the bare necessities of life" (ineedchemicalx.deviantart.com/art/Look-for-the-bare-necessities-of-life-402262777)
+			"You and I collide" (ineedchemicalx.deviantart.com/art/You-and-I-collide-401457901)
+			"Emperor of the Stars" (ineedchemicalx.deviantart.com/art/Emperor-of-the-Stars-370265193)
+			"Sherlockin" (ineedchemicalx.deviantart.com/art/Sherlockin-369847236)
+			"A breath of Hope" (ineedchemicalx.deviantart.com/art/A-breath-of-Hope-366359145)
+			"The Pursuit" (ineedchemicalx.deviantart.com/art/The-Pursuit-355003425)
+			"Cherish" (ineedchemicalx.deviantart.com/art/Cherish-320041163)
+			"Mind is a clear stage" (ineedchemicalx.deviantart.com/art/Mind-is-a-clear-stage-375431607)
+		
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
 	Other:
+		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 PIE (css3pie.com)
-		Sass (sass-lang.com)
+		CSS3 Pie (css3pie.com)
+		background-size polyfill (github.com/louisremi)
+		jquery.scrolly (n33.co)
 		skel (n33.co)
