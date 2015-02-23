@@ -858,7 +858,7 @@
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #39c29d;
+				background-color: #79d2f0;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -914,7 +914,7 @@
 
 	#header {
 		background: #79d2f0;
-		color: #d1f1e9;
+		color: #b7e7f7;
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -936,7 +936,7 @@
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #b7e7f7;
 		}
 
 			#header a:hover {
@@ -959,7 +959,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #b7e7f7;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -977,7 +977,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #b7e7f7;
 				}
 
 		#header > nav ul {
